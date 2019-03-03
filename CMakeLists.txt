@@ -3,10 +3,10 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-project ("autogtest")
+project ("GoogleTestWithCmake")
 
 # main project
-add_subdirectory ("src")
+add_subdirectory ("main-project")
 # library used by main project
 add_library (Sqr sqr/sqr.cpp sqr/sqr.h)
 
